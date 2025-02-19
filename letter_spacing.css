@@ -1,0 +1,28 @@
+h3 {
+    text-align: center;
+}
+
+.text-normal {
+letter-spacing: normal;
+}
+
+.text-px {
+letter-spacing: 6px;
+}
+
+.text-em {
+letter-spacing: 0.5em;
+}
+
+/* This part is not the focus of the current chapter. We will consider it further. */
+ul {
+display: flex;
+justify-content: space-around;
+list-style: none;
+padding-left: 0;
+}
+
+.container {
+width: 300px;
+border: 1px dashed lightcoral;
+}

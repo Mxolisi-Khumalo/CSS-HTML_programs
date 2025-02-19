@@ -1,0 +1,23 @@
+.text-color-name {
+    color: red;
+}
+  
+.text-color-hex {
+    color: #2937ff;
+}
+  
+.text-color-rgb {
+    color: rgb(255, 255, 0);
+}
+
+.text {
+    background-color: darkolivegreen;
+    color: antiquewhite;
+}
+
+.text2 {
+    background-color: #0766ad;
+  
+    /* 0% of red; 100% of green; 0%% of blue; 50% of opacity*/
+    color: rgba(0, 255, 0, 0.5);
+  }

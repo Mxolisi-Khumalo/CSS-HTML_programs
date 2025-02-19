@@ -1,0 +1,36 @@
+.link {
+    text-decoration: none;
+  }
+  
+  .text-lined-through {
+    text-decoration: line-through;
+    color: rgb(0, 26, 255);
+  }
+  
+  .text-underlined {
+    text-decoration: underline;
+    color:blueviolet;
+  }
+  
+  .text-over-lined {
+    text-decoration: overline;
+    color: yellowgreen;
+  }
+  
+  /* This part is not the focus of the current chapter. We will consider it further. */
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .container {
+    width: 160px;
+    border: 1px dashed darksalmon;
+  }
+  
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+  }

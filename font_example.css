@@ -1,0 +1,26 @@
+p {
+    font-family: 'DM Sans';
+    font-size: 23px;
+    font-weight: 400;
+  }
+
+p1 {
+font-size: 23px;
+font-weight: 400;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.container{
+    width: 400px;
+    border: dashed blue;
+}
+
+h3 {
+    text-align: center;
+    text-transform: capitalize;
+}

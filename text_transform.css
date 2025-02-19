@@ -1,0 +1,32 @@
+.capitalized-text {
+    text-transform: capitalize;
+  }
+  
+  .uppercased-text {
+    text-transform: uppercase;
+  }
+  
+  .lowercased-text {
+    text-transform: lowercase;
+  }
+  
+  .not-modified-text {
+    text-transform: none;
+  }
+  
+  /* This part is not the focus of the current chapter. We will consider it further. */
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .container {
+    width: 160px;
+    border: 1px dashed darksalmon;
+  }
+  
+  h3 {
+    text-align: center;
+  }

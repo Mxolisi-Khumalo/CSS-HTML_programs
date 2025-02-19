@@ -1,0 +1,24 @@
+a {
+    text-decoration:wavy;
+    margin: 30px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header-link{
+    color: darkgreen;
+}
+
+.header-link:hover,
+.header-link:focus{
+    background-color: yellowgreen;
+}
+
+.footer-link{
+    color: salmon;
+}
+
+.footer-link:hover,
+.footer-link:focus{
+    background-color: purple;
+}

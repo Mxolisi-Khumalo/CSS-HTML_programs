@@ -1,0 +1,55 @@
+/* Styles for the first button */
+.button-one {
+    background-color: green;
+  }
+  
+  .button-one:hover {
+    background-color: yellow;
+  }
+  
+  /* Styles for the second button */
+  .button-two {
+    background-color: green;
+  }
+  
+  .button-two:focus {
+    background-color: yellow;
+  }
+  
+  /* Styles for the third button */
+  .button-three {
+    background-color: green;
+  }
+  
+  .button-three:hover,
+  .button-three:focus {
+    background-color: yellow;
+  }
+
+  /*Style for the active links*/
+  .nav-link {
+    color: darkblue;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    color: orange;
+  }
+  
+  .nav-link:active {
+    color: orangered;
+  }
+
+    /*Style for the visited links*/
+  .social-links .link {
+    color: green;
+  }
+  
+  .social-links .link:hover,
+  .social-links .link:focus {
+    color: yellow;
+  }
+  
+  .social-links .link:visited {
+    color: blue;
+  }

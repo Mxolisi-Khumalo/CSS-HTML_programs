@@ -1,0 +1,32 @@
+h3 {
+    text-align: center;
+  }
+  
+  .text-start {
+    text-align: start;
+  }
+  
+  .text-end {
+    text-align: end;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  /* This part is not the focus of the current chapter. We will consider it further. */
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .container {
+    width: 200px;
+    border: 1px dashed darksalmon;
+  }

@@ -1,0 +1,21 @@
+:root {
+    --link-color: #19a7ce;
+    --title-color: #146c94;
+    --description-color: #9e6f21;
+}
+
+.link {
+    text-decoration: none;
+    margin: 10px;
+    color: var(--link-color);
+}
+
+.title {
+    color: var(--title-color);
+}
+
+.description {
+    color: var(--description-color);
+}
+
+

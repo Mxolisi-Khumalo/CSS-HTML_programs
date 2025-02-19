@@ -1,0 +1,30 @@
+:root {
+    --background-color: rgba(16, 25, 150, 0.8); /* variable can be any value */
+    --text-color: #f8f8f8;
+}
+
+.container {
+background-color: var(--background-color);
+}
+
+.title {
+color: var(--text-color);
+}
+
+.signal {
+font-size: 18px;
+font-weight: 600;
+color: blue;
+}
+
+.stop {
+color: red;
+}
+
+.slow-down {
+color: yellow;
+}
+
+.proceed {
+color: green;
+}
