@@ -1,0 +1,10 @@
+.description {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.description::first-letter {
+font-size: 50px;
+font-weight: 700;
+font-style: italic;
+}

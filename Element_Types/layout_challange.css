@@ -1,0 +1,13 @@
+/* Style the block-level `<div>` element */
+div {
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the inline `<span>` element */
+  span {
+    color: red;
+    font-size: 24px;
+  }

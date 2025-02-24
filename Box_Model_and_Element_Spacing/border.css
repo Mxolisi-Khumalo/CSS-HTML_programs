@@ -1,0 +1,25 @@
+.box-one {
+    border: 2px solid brown;
+  }
+  .box-two {
+    border: 2px dotted brown;
+  }
+  .box-three {
+    border: 2px dashed brown;
+  }
+  .box-four {
+    border: 2px double brown;
+  }
+  
+  /* This part is not the focus of the current chapter. */
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  div {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+  }

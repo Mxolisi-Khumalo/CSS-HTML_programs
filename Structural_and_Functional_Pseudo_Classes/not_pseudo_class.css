@@ -1,0 +1,9 @@
+/* Set color for all elements except the last element */
+li:not(:last-child) {
+    color: pink;
+  }
+  
+  /* Set background color for all elements except the first element */
+  li:not(:first-child) {
+    background-color: purple;
+  }

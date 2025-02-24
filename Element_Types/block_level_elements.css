@@ -1,0 +1,26 @@
+.main-box {
+    background-color: indianred;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .first-box {
+    background-color: darkmagenta;
+    width: 30px;
+    height: 40px;
+    margin-left: 10px;
+  }
+  
+  .second-box {
+    background-color: thistle;
+    width: 30px;
+    height: 15px;
+    margin-left: 30px;
+  }
+  
+  .third-box {
+    background-color: olivedrab;
+    width: 50px;
+    height: 45px;
+    margin-left: auto;
+  }
