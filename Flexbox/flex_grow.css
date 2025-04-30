@@ -1,0 +1,21 @@
+.blog-list {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rosybrown;
+  }
+  
+  .blog-item {
+    border: 1px solid violet;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .blog-item:nth-child(2) {
+    flex-grow: 2;
+  }
+  
+  /* Remove default decorations */
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }

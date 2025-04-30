@@ -1,0 +1,23 @@
+.cards-list {
+    display: flex;
+    align-items: baseline;
+    border: 1px solid khaki;
+    width: 660px;
+  }
+  
+  .card {
+    border: 1px dashed navy;
+    padding: 10px;
+    width: 120px;
+  }
+  
+  .card img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Remove default decorations */
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }

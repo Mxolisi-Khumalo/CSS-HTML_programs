@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .box {
+    width: 160px;
+    height: 140px;
+    border: 1px solid darkorchid;
+    background-image: url("https://codefinity-content-media.s3.eu-west-1.amazonaws.com/code-1/background+size+image+example.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  span {
+    padding: 5px;
+    font-size: 28px;
+    background-color: rgba(145, 165, 182, 0.45);
+  }
+  
+  .box:nth-child(1) {
+    background-size: auto;
+  }
+  
+  .box:nth-child(2) {
+    background-size: cover;
+  }
+  
+  .box:nth-child(3) {
+    background-size: contain;
+  }
+  
+  .box:nth-child(4) {
+    background-size: 90px;
+  }
