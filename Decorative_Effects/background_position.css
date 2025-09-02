@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .box {
+    margin: 10px;
+    width: 140px;
+    height: 140px;
+    border: 1px solid darkorchid;
+    background-image: url("https://codefinity-content-media.s3.eu-west-1.amazonaws.com/code-1/background-position-example.webp");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  span {
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgba(145, 165, 182, 0.45);
+  }
+  
+  .box:nth-child(1) {
+    background-position: center;
+  }
+  
+  .box:nth-child(2) {
+    background-position: left top;
+  }
+  
+  .box:nth-child(3) {
+    background-position: left bottom;
+  }
+  
+  .box:nth-child(4) {
+    background-position: 60% 10px;
+  }

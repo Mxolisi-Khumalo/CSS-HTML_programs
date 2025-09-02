@@ -1,0 +1,16 @@
+/* Apply `flex` to the parent element.
+/* In this situation, it is the `<ul>` element with the `list` class name.
+*/
+.list {
+    display: flex;
+  }
+  
+  /* Add `border` to the items of the flex container */
+  .list li {
+    border: 1px solid forestgreen;
+  }
+  
+  /* Remove default decoration */
+  ul {
+    list-style: none;
+  }

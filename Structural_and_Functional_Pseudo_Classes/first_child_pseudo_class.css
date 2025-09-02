@@ -1,0 +1,14 @@
+/* Set the color for all `<li>` elements */
+.item {
+  color: yellowgreen;
+  font-size: 12px;
+}
+
+/* Set the color for the first element */
+.item:first-child {
+  color: blue;
+}
+
+.item:last-child {
+  font-size: 22px;
+}

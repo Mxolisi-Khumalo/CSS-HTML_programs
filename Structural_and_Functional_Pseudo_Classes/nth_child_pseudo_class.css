@@ -1,0 +1,9 @@
+/* Set the font weight for all `<li>` elements */
+.item {
+    font-weight: 400;
+  }
+  
+  /* Set the font weight for the third element */
+  .item:nth-child(3) {
+    font-weight: 900;
+  }

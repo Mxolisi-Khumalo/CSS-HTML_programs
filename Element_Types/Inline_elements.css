@@ -1,0 +1,17 @@
+/* These properties work */
+a {
+    border-left: 1px solid firebrick;
+    border-right: 3px dashed seagreen;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 15px;
+  }
+  
+  /* These properties don't work */
+  a {
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }

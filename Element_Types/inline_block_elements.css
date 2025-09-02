@@ -1,0 +1,20 @@
+/* Set common styles for all button elements */
+button {
+    cursor: pointer;
+  }
+  
+  .send-btn {
+    padding: 10px 20px;
+    background-color: yellowgreen;
+    color: slateblue;
+    font-size: 24px;
+  }
+  
+  .submit-btn {
+    padding: 5px 18px;
+    border: 1px solid brown;
+    border-radius: 8px;
+    background-color: lightblue;
+    color: darkblue;
+    font-weight: 600;
+  }

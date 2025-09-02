@@ -1,0 +1,11 @@
+body {
+    background-image: linear-gradient(
+      to right,
+      #7149c6 10%,
+      #fc2947 10%,
+      #fe6244 30%,
+      #ffdeb9 30%,
+      #00235b 40%,
+      #ffdd83 40%
+    );
+  }

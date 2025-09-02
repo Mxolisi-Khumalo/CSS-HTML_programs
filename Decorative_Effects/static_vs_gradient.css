@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .static-color {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+  }
+  
+  .gradient-color {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to right, #3a6186, #89253e);
+  }
